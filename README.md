@@ -6,7 +6,7 @@
 - CSS
 - Visual Studio Code
 
-### Live Demo: [Leno](https://hussamodeh12.github.io/Leon_Template/)
+### Live Demo: [Leon](https://hussamodeh12.github.io/Leon_Template/)
 
 <hr>
 
