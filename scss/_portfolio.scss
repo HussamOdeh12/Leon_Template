@@ -1,0 +1,42 @@
+.portfolio {
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  background-color: $section-background;
+  .portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 100px;
+    .card {
+      background-color: white;
+      img {
+        max-width: 100%;
+      }
+      .info {
+        padding: 20px;
+        h3 {
+          margin: 0;
+        }
+        p {
+          color: $font-back-color;
+          line-height: 1.6;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio {
+    .portfolio-content {
+      .card {
+        .info {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+/*-----------------------------------------*/

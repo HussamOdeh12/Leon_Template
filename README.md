@@ -4,6 +4,7 @@
 
 - HTML
 - CSS
+- SCSS
 - Visual Studio Code
 
 ### Live Demo: [Leon](https://hussamodeh12.github.io/Leon_Template/)

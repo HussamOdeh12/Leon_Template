@@ -1,0 +1,13 @@
+.footer {
+  background-color: $secondary-color;
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+  span {
+    font-weight: bold;
+    color: $main-color;
+  }
+}
+
+/*-----------------------------------------*/

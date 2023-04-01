@@ -1,0 +1,49 @@
+.contact {
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  background-color: $section-background;
+  .info {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    text-align: center;
+    .label {
+      font-size: 35px;
+      font-weight: 800;
+      color: $secondary-color;
+      letter-spacing: -1px;
+      margin-bottom: 15px;
+    }
+    .link {
+      display: block;
+      font-size: 35px;
+      font-weight: 800;
+      color: $main-color;
+      text-decoration: none;
+    }
+    .social {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      font-size: 16px;
+      i {
+        margin-left: 10px;
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    .info {
+      .label {
+        font-size: 25px;
+      }
+      .link {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+/*-----------------------------------------*/

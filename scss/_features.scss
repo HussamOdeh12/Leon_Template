@@ -1,0 +1,28 @@
+.features {
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  background-color: $section-background;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .feat {
+    padding: 20px;
+    text-align: center;
+    i {
+      color: $main-color;
+    }
+    h3 {
+      font-weight: 800; /* Extra Bold */
+      margin: 30px 0px;
+    }
+    p {
+      line-height: 1.8;
+      color: $font-back-color;
+      font-size: 17px;
+    }
+  }
+}
+
+/*-----------------------------------------*/

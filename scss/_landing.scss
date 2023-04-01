@@ -1,0 +1,27 @@
+.landing {
+  background-image: url(media/landing.jpg);
+  background-size: cover;
+  height: calc(100vh - 64px);
+  position: relative;
+  .intro-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 320px;
+    max-width: 100%;
+    h1 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 50px;
+      color: $main-color;
+    }
+    p {
+      font-size: 19px;
+      line-height: 1.8;
+    }
+  }
+}
+
+/*-----------------------------------------*/
