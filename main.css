@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 html {
@@ -414,4 +416,4 @@ body {
   color: #10cab7;
 }
 
-/*-----------------------------------------*/ /*# sourceMappingURL=main.css.map */
+/*-----------------------------------------*//*# sourceMappingURL=main.css.map */
